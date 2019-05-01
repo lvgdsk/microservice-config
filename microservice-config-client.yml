@@ -3,13 +3,17 @@ spring:
     active: dev
     
 --- 
-   
+
 spring:
   profiles: dev
   application:
     name: microservice-configclient
+    
+coontent: hello dev
+    
 server:
   port:8201
+  
 eureka:
   client:
     service-uri:
@@ -21,8 +25,12 @@ spring:
   profiles: test
   application:
     name: microservice-configclient
+    
+coontent: hello test
+
 server:
   port:8202
+  
 eureka:
   client:
     service-uri:
