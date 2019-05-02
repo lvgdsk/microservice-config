@@ -9,7 +9,7 @@ spring:
   application:
     name: microservice-configclient
     
-coontent: hello dev v1
+coontent: hello dev v2
     
 server:
   port:8201
@@ -26,7 +26,7 @@ spring:
   application:
     name: microservice-configclient
     
-coontent: hello test v1
+coontent: hello test v2
 
 server:
   port:8202
